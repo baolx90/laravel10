@@ -1,0 +1,26 @@
+{
+    "name": "kizi/shopify",
+    "description": "Shopify package",
+    "authors": [
+        {
+            "name": "Lâm Xuân Bảo",
+            "email": "lamxuanbao.tb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kizi\\Shopify\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kizi\\Shopify\\Providers"
+            ],
+            "aliases": {
+                "Shopify": "Kizi\\Shopify\\Facade\\Shopify"
+            }
+        }
+    },
+    "require": {}
+}

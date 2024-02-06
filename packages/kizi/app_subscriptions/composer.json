@@ -1,0 +1,23 @@
+{
+    "name": "kizi/app-subscriptions",
+    "description": "Shopify Subscription App",
+    "authors": [
+        {
+            "name": "Lâm Xuân Bảo",
+            "email": "lamxuanbao.tb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kizi\\AppSubscriptions\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kizi\\AppSubscriptions\\Providers"
+            ]
+        }
+    },
+    "require": {}
+}
